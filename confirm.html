@@ -1,0 +1,705 @@
+<html lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Спасибо за заказ!</title>
+        <!--[if lt IE 9]>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.8/es5-shim.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+            <![endif]-->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap"
+              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&amp;display=swap"
+              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="confirm/css/fonts.css">
+        <link rel="stylesheet" href="confirm/css/timeTo.css">
+        <link rel="stylesheet" href="confirm/css/slick.css">
+        <link rel="stylesheet" href="confirm/css/slick-theme.css">
+        <link rel="stylesheet" href="confirm/css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <script>
+            function $_GET(key) {
+                var s = window.location.search;
+                s = s.match(new RegExp(key + '=([^&=]+)'));
+                return s ? s[1] : '';
+            }
+    
+            var site = $_GET('version')
+    
+            if (site.replace(/(v\d{1,3})$/, '') === '149') {
+                document.write('<scr' + 'ipt src="149/counter.js"></scr' + 'ipt>');
+            }
+            if (site.replace(/(v\d{1,3})$/, '') === '149prelp') {
+                document.write('<scr' + 'ipt src="149/prelp/counter.js"></scr' + 'ipt>');
+            }
+            if (site.replace(/(v\d{1,3})$/, '') === 'free') {
+                document.write('<scr' + 'ipt src="free/counter.js"></scr' + 'ipt>');
+            }
+            if (site.replace(/(v\d{1,3})$/, '') === 'freeprelp') {
+                document.write('<scr' + 'ipt src="free/prelp/counter.js"></scr' + 'ipt>');
+            }
+            if (site.replace(/(v\d{1,3})$/, '') === 'cpl') {
+                document.write('<scr' + 'ipt src="cpl/counter.js"></scr' + 'ipt>');
+            }
+            if (site.replace(/(v\d{1,3})$/, '') === 'cplprelp') {
+                document.write('<scr' + 'ipt src="cpl/prelp/counter.js"></scr' + 'ipt>');
+            }
+        </script>
+        <div class="thank">
+            <div class="thank__logo">
+                <h1>СуставПро</h1>
+            </div>
+            <div class="thank__content">
+                <div class="thank__info">
+                    <div class="thank__order">
+                        <p>Спасибо за заказ! </p>
+                    </div>
+                    <div class="thank__status">
+                        <p>Ваш заказ принят и находится в обработке!</p>
+                    </div>
+                    <div class="thank__about">
+                        <ul>
+                            <li>
+                                Товар: <span class="tovar">СуставПро</span></li>
+                            <li>
+                                Ваше имя: <span id="leadprofit-name" class="name"></span>
+                            </li>
+                            <li>
+                                Ваш телефон: <span id="leadprofit-phone" class="phone"></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="thank__call">
+                        <p>В ближайшее время с Вами свяжется специалист для уточнения деталей</p>
+                    </div>
+                </div>
+                <div class="thank__pack">
+                    <img src="confirm/images/thank-pack.png" alt="">
+                </div>
+            </div>
+            <div class="thank__atten">
+                <div class="thank__atten-desc">
+                    <p>Если вы ошиблись при вводе данных, можете повторить ввод</p>
+                </div>
+                <div class="thank__atten-btn">
+                    <a id="leadprofit-returnurl" href="#"><button>Переоформить</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <div class="question__title">
+                <h2>Часто задаваемые вопросы</h2>
+            </div>
+            <div class="question__content">
+                <div class="question__doctor">
+                    <div class="question__doctor-img">
+                        <img src="confirm/images/doctor-img.png" alt="">
+                    </div>
+                    <div class="question__doctor-answer">
+                        <p>На ваши вопросы отвечает
+                            наш консультант</p>
+                    </div>
+                    <div class="question__doctor-name">
+                        <p><span>Самойлов С.А.</span>к.м.н. врач-ревматолог высшей категории</p>
+                    </div>
+                </div><div class="question__info">
+                    <div class="question__item">
+                        <div class="question__ask">
+                            <p>— Как действует препарат?</p>
+                        </div>
+                        <div class="question__answer">
+                            <p><span>Самойлов С.А.:</span>  СуставПро оказывает противовоспалительное, противоотечное, антимикробное и обезболивающее действие. Ярко выраженный и быстрый эффект он оказывает на первых стадиях воспаления, на начальных этапах формирования отека. СуставПро обладает уникальным составом и механизмом действия.  Активные компоненты Сустав Про стимулируют процесс регенерации тканей. Сустав Про можно безопасно применять в любом возрасте и без ограничений по количеству применений.</p>
+                        </div>
+                    </div>
+                    <div class="question__item">
+                        <div class="question__ask">
+                            <p>— Его нужно принимать на постоянной основе?</p>
+                        </div>
+                        <div class="question__answer">
+                            <p><span>Самойлов С.А.:</span> Нет, СуставПро действует сразу после нанесения. Для достижения стойкого и выраженного терапевтического эффекта я советую курсовое применение. Длительность курса зависит от индивидуальных особенностей организма и степени тяжести заболевания, но не менее 30 дней.
+                                Курс приема требуется повторять 1 раз в 2-3 года.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="question__item">
+                        <div class="question__ask">
+                            <p>— Кому подходит СуставПро?</p>
+                        </div>
+                        <div class="question__answer">
+                            <p><span>Самойлов С.А.:</span> Препарат рекомендован к применению при заболевании суставов и следующих проявлениях:</p>
+                            <ul>
+                                <li>• Поражение суставово воспалительного характера - артроз, артрит, остеохандроз, бурсит и т.д.;</li>
+                                <li>• Поверхностные воспаления кожи- эритема, флебит, лимфаденит;</li>
+                                <li>• Заболевания костной ткани-остеопороз;</li>
+                                <li>• Боли в области ног рук спины и шеи;</li>
+                                <li>• Отеки;</li>
+                                <li>• Хруст в суставах;</li>
+                                <li>• Покраснение кожи вокруг сустава;</li>
+                                <li>• Нарушение работы опорно двигательного аппарата;</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="question__item">
+                        <div class="question__ask">
+                            <p>— В чем преимущество СуставПро перед аптечными средствами?</p>
+                        </div>
+                        <div class="question__answer">
+                            <p><span>Самойлов С.А.:</span> Уникальность СуставПро объясняется наличием в его составе акулий хрящ в количестве, необходимом для достижения терапевтического эффекта. Благодаря хондроитину ткани хряща восстанавливаются на клеточном уровне, а натуральные экстракты препятствуют дистрофии и истиранию суставов. СуставПро на 100% состоит из активных компонентов, в нем нет никаких других примесей или основ, которые не несут в себе каких-либо полезных свойств. В других мазях или гелей концентрация активных веществ редко превышает 3-5%. То есть, покупая 100 г упаковку препарата Вы, как правило, покупаете 3-5 г активного вещества, таким образом чтобы получить сравнимую с СуставПро концентрацию активного вещества Вам необходимо купить сразу 2 или даже 3 упаковки стандартной мази или геля. </p>
+                        </div>
+                    </div>
+                    <div class="question__item">
+                        <div class="question__ask">
+                            <p>— Сколько ждать пока подействует средство?</p>
+                        </div>
+                        <div class="question__answer">
+                            <p><span>Самойлов С.А.:</span> СуставПро действует в 3 этапа. На первом этапе снимает болевой синдром и устраняет острый воспалительный процесс.Это в свою очередь позволяет оценить его эффективность. Однако чтобы добиться стойкого выраженного эффекта, рекомендуется курсовой прием средства. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="prefer">
+            <div class="prefer__list">
+                <ul>
+                    <li>
+                        <div class="prefer__list-desc">
+                            <p>Рекомендована европейской ассоциацией ревматологов</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="prefer__list-desc">
+                            <p>100% гарантия качества</p>
+                        </div>
+                    </li>
+                    <li>
+                        <p>СуставПро прошел все необходимые процедуры регистрационных и контрольных мероприятий, предусмотренных законодательством.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="prefer__info">
+                <div class="prefer__pack">
+                    <img src="confirm/images/prefer-pack.png" alt="">
+                </div>
+                <div class="prefer__sert">
+                    <img src="confirm/images/prefer-sert.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="feed">
+            <div class="feed__title">
+                <h2>Пока ваш заказ обрабатывается, почитайте
+                    <span>отзывы тех, кто уже попробовал СуставПро</span></h2>
+            </div>
+            <div class="feed__content">
+                <div class="feed__otzovik">
+                    <div class="feed__otzovik-logo">
+                        <img src="confirm/images/feed-logo1.png" alt="">
+                    </div>
+                    <div class="feed__otzovik-item">
+                        <div class="feed__otzovik-media">
+                            <div class="feed__otzovik-img">
+                                <img src="confirm/images/feed-img1.png" alt="">
+                            </div>
+                            <div class="feed__otzovik-media__info">
+                                <div class="feed__otzovik-name">
+                                    <p>Степан Шевцов</p>
+                                </div>
+                                <div class="feed__otzovik-rep">
+                                    <p>Репутация <span>+21</span></p>
+                                </div>
+                                <div class="feed__otzovik-country">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feed__otzovik-info">
+                            <div class="feed__otzovik-info__body">
+                                <div class="feed__otzovik-title">
+                                    <p>СуставПро- отличное средство от боли в суставах</p>
+                                </div>
+                                <div class="feed__otzovik-date">
+                                    <p>
+                                        <script type="text/javascript">
+                                            var appendNull = function (num) {
+                                                return num < 10 ? 0 + num.toString() : num;
+                                            };
+                                            d = new Date();
+                                            p = new Date(d.getTime() - 60 * 86400000);
+                                            monthb = '01,02,03,04,05,06,07,08,09,10,11,12'.split(',');
+                                            document.write(appendNull(p.getDate()) + '.' + monthb[p.getMonth()] + '.' + p.getFullYear());
+                                        </script>
+                                    </p>
+                                </div>
+                                <div class="feed__otzovik-star">
+                                    <ul>
+                                        <li>
+                                            <img src="confirm/images/star.svg" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="confirm/images/star.svg" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="confirm/images/star.svg" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="confirm/images/star.svg" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="confirm/images/star.svg" alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="feed__otzovik-text">
+                                <div class="feed__otzovik-plus">
+                                    <div class="feed__otzovik-plus__title">
+                                        <p>Достоинства:</p>
+                                    </div>
+                                    <div class="feed__otzovik-plus__desc">
+                                        <p>Быстро снял боль, Натуральный состав</p>
+                                    </div>
+                                </div>
+                                <div class="feed__otzovik-minus">
+                                    <div class="feed__otzovik-minus__title">
+                                        <p>НЕДОСТАТКИ:</p>
+                                    </div>
+                                    <div class="feed__otzovik-minus__desc">
+                                        <p>Не нашел</p>
+                                    </div>
+                                </div>
+                                <div class="feed__otzovik-itog">
+                                    <p>Очень рад, что узнал про это средство. У меня артроз 2 степени, руки почти не двигались, пальцы не сгибались. Превозмогая боль делал дела по дому, не хотел становиться для семьи абузой. А сейчас вот текст печатаю на компьютере, разве я мог в такое два месяца назад поверить? Да я ложку не мог нормально в руках держать. А теперь забыл о боли и не вспоминаю.
+                                        Руки работают, не как в молодости, конечно, но могу теперь ремонт мелкий делать, переписываться с детьми по интернету, телефоном пользоваться.
+                                        Спасибо СуставПро!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feed__otzovik-recommend">
+                            <div class="feed__otzovik-recommend__title">
+                                <p>Отзыв рекомендуют:</p>
+                            </div>
+                            <div class="feed__otzovik-recommend__yes">
+                                <p>4</p>
+                            </div>
+                            <div class="feed__otzovik-recommend__none">
+                                <p>1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feed__otzovik-item">
+                        <div class="feed__otzovik-media">
+                            <div class="feed__otzovik-img">
+                                <img src="confirm/images/feed-img2.png" alt="">
+                            </div>
+                            <div class="feed__otzovik-media__info">
+                                <div class="feed__otzovik-name">
+                                    <p>Елена Петрова</p>
+                                </div>
+                                <div class="feed__otzovik-rep">
+                                    <p>Репутация <span>+47</span></p>
+                                </div>
+                                <div class="feed__otzovik-country">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feed__otzovik-info">
+                            <div class="feed__otzovik-info__body">
+                                <div class="feed__otzovik-title">
+                                    <p>СуставПро вылечил мне спину, а мужу колено</p>
+                                </div>
+                                <div class="feed__otzovik-date">
+                                    <p>
+                                        <script type="text/javascript">
+                                            var appendNull = function (num) {
+                                                return num < 10 ? 0 + num.toString() : num;
+                                            };
+                                            d = new Date();
+                                            p = new Date(d.getTime() - 25 * 86400000);
+                                            monthb = '01,02,03,04,05,06,07,08,09,10,11,12'.split(',');
+                                            document.write(appendNull(p.getDate()) + '.' + monthb[p.getMonth()] + '.' + p.getFullYear());
+                                        </script>
+                                    </p>
+                                </div>
+                                <div class="feed__otzovik-star">
+                                    <ul>
+                                        <li>
+                                            <img src="confirm/images/star.svg" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="confirm/images/star.svg" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="confirm/images/star.svg" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="confirm/images/star.svg" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="confirm/images/star.svg" alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="feed__otzovik-text">
+                                <div class="feed__otzovik-plus">
+                                    <div class="feed__otzovik-plus__title">
+                                        <p>Достоинства:</p>
+                                    </div>
+                                    <div class="feed__otzovik-plus__desc">
+                                        <p>Быстро помогает. Если курсом применять полностью излечивает. В составе нет химии
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feed__otzovik-minus">
+                                <div class="feed__otzovik-minus__title">
+                                    <p>НЕДОСТАТКИ:</p>
+                                </div>
+                                <div class="feed__otzovik-minus__desc">
+                                    <p>Нет</p>
+                                </div>
+                            </div>
+                            <div class="feed__otzovik-itog">
+                                <p>У меня спина ныла в последнее время, не могла долго сидеть, а работа у меня сидячая. Коллега посоветовала попробовать СуставПро. Заказывала по интернету, в аптеке не нашла его, так даже выгоднее вышло. Брала на курс. Вылечила спину за две недели полностью. Осталась упаковка, муж стал мазать и колено у него прошло, с которым уже лет 10 мучился. Всем рекомендую, прекрасный препарат от боли в суставах.</p>
+                            </div>
+                        </div>
+                        <div class="feed__otzovik-recommend">
+                            <div class="feed__otzovik-recommend__title">
+                                <p>Отзыв рекомендуют:</p>
+                            </div>
+                            <div class="feed__otzovik-recommend__yes">
+                                <p>3</p>
+                            </div>
+                            <div class="feed__otzovik-recommend__none">
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="feed__recommend">
+                    <div class="feed__recommend-logo">
+                        <img src="confirm/images/feed-logo2.png" alt="" />
+                    </div><div class="feed__recommend-item">
+                        <div class="feed__recommend-top">
+                            <div class="feed__recommend-media">
+                                <div class="feed__recommend-info">
+                                    <div class="feed__recommend-ava">
+                                        <img src="confirm/images/feed-img3.png" alt="" />
+                                    </div><div class="feed__recommend-about">
+                                        <div class="feed__recommend-star">
+                                            <ul>
+                                                <li>
+                                                    <img src="confirm/images/star.svg" alt="" />
+                                                </li><li>
+                                                    <img src="confirm/images/star.svg" alt="" />
+                                                </li><li>
+                                                    <img src="confirm/images/star.svg" alt="" />
+                                                </li><li>
+                                                    <img src="confirm/images/star.svg" alt="" />
+                                                </li><li>
+                                                    <img src="confirm/images/star.svg" alt="" />
+                                                </li>
+                                            </ul>
+                                        </div><div class="feed__recommend-name">
+                                            <p>Евгений Крягин</p>
+                                        </div>
+                                    </div>
+                                </div><div class="feed__recommend-data">
+                                    <div class="feed__recommend-date">
+                                        <p><script type="text/javascript">
+                                            var appendNull = function (num) {
+                                                return num < 10 ? 0 + num.toString() : num;
+                                            };
+                                            d = new Date();
+                                            p = new Date(d.getTime() - 45 * 86400000);
+                                            monthb = '01,02,03,04,05,06,07,08,09,10,11,12'.split(',');
+                                            document.write(appendNull(p.getDate()) + '.' + monthb[p.getMonth()] + '.' + p.getFullYear());
+                                            </script></p>
+                                    </div><div class="feed__recommend-comment">
+                                        <p>1</p>
+                                    </div>
+                                </div>
+                            </div><div class="feed__recommend-img">
+                                <ul>
+                                    <li>
+                                        <img src="confirm/images/feed_3.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="confirm/images/feed_4.webp" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><div class="feed__recommend-content">
+                            <div class="feed__recommend-compare">
+                                <div class="feed__recommend-plus">
+                                    <div class="feed__recommend-plus__title">
+                                        <p>Достоинства</p>
+                                    </div>
+                                    <div class="feed__recommend-plus__desc">
+                                        <p>работает</p>
+                                    </div>
+                                </div>
+                                <div class="feed__recommend-minus">
+                                    <div class="feed__recommend-minus__title">
+                                        <p>Недостатки</p>
+                                    </div>
+                                    <div class="feed__recommend-minus__desc">
+                                        <p>Нет</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feed__recommend-desc">
+                                <h4>Эффективное средство от суставной боли</h4>
+                                <p>Я в прошлом спортсмен и былые травмы дают о себе знать. Суставы ноют постоянно, не дают нормально жить. В аптеки отнес уже десятки тысяч рублей, ходил в платные клиники, но так и не нашел средства, которое бы мне помогло. Ненадолго унять боль - да, пластыри, мази справляются. Но постоянно же нельзя пить обезболивающие и мазаться постоянно. Во-первых дорого, во-вторых, это вредно, мази очень токсичные. Но мои проблемы решил СуставПро. Узнал о нем случайно и очень рад, что попробовал его. Полностью вернул подвижность суставам и избавил меня от боли. Занимаюсь спортом и веду активную жизнь. Всем рекомендую это средство! </p>
+                            </div>
+                        </div>
+                    </div><div class="feed__recommend-item">
+                        <div class="feed__recommend-top">
+                            <div class="feed__recommend-media">
+                                <div class="feed__recommend-info">
+                                    <div class="feed__recommend-ava">
+                                        <img src="confirm/images/feed-img4.png" alt="" />
+                                    </div><div class="feed__recommend-about">
+                                        <div class="feed__recommend-star">
+                                            <ul>
+                                                <li>
+                                                    <img src="confirm/images/star.svg" alt="" />
+                                                </li><li>
+                                                    <img src="confirm/images/star.svg" alt="" />
+                                                </li><li>
+                                                    <img src="confirm/images/star.svg" alt="" />
+                                                </li><li>
+                                                    <img src="confirm/images/star.svg" alt="" />
+                                                </li><li>
+                                                    <img src="confirm/images/star.svg" alt="" />
+                                                </li>
+                                            </ul>
+                                        </div><div class="feed__recommend-name">
+                                            <p>Светлана Кругова</p>
+                                        </div>
+                                    </div>
+                                </div><div class="feed__recommend-data">
+                                    <div class="feed__recommend-date">
+                                        <p><script type="text/javascript">
+                                            var appendNull = function (num) {
+                                                return num < 10 ? 0 + num.toString() : num;
+                                            };
+                                            d = new Date();
+                                            p = new Date(d.getTime() - 20 * 86400000);
+                                            monthb = '01,02,03,04,05,06,07,08,09,10,11,12'.split(',');
+                                            document.write(appendNull(p.getDate()) + '.' + monthb[p.getMonth()] + '.' + p.getFullYear());
+                                            </script></p>
+                                    </div><div class="feed__recommend-comment">
+                                        <p>0</p>
+                                    </div>
+                                </div>
+                            </div><div class="feed__recommend-img">
+                                <ul>
+                                    <li>
+                                        <img src="confirm/images/feed_1.webp" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="confirm/images/feed_2.webp" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><div class="feed__recommend-content">
+                            <div class="feed__recommend-compare">
+                                <div class="feed__recommend-plus">
+                                    <div class="feed__recommend-plus__title">
+                                        <p>Достоинства</p>
+                                    </div>
+                                    <div class="feed__recommend-plus__desc">
+                                        <p>Помог вылечить больные колени. Сразу помогает
+                                            Можно заказать с доставкой
+
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="feed__recommend-minus">
+                                    <div class="feed__recommend-minus__title">
+                                        <p>Недостатки</p>
+                                    </div>
+                                    <div class="feed__recommend-minus__desc">
+                                        <p>Нет</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feed__recommend-desc">
+                                <h4>СуставПро- самое лучшее из того, что я пробовала, вылечил мне колени, избавил от боли</h4>
+                                <p>У меня больные колени, с трудом передвигалась даже по квартире. Не говоря уже о том, чтобы выйти из дома. Не могла в магазин сходить  - просила соседку. Покупала дорогие мази, но они мне не помогали. Снимут ненадолго боль, а потом она снова через несколько часов возвращается. А потом дочка привезла мне СуставПро, сказала, что его все хвалят. Попробовала и действительно, боль снял быстро. Стала каждый день колени мазать и через три недели уже по лестнице поднималась. Уже не мажу, а колени не болят. Очень довольна. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- new resend lead form. Place it outside main wrapper/container to make styles work properly -->
+	<style>
+		/* default styles for form */
+		#resend-lead-popup {
+			display: none;
+			position: fixed;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.resend-lead-popup--active {
+			display: flex !important;
+			z-index: 400;
+			background: rgba(0, 0, 0, .5);
+		}
+
+		#resend-lead-popup .resend-lead-popup__body {
+			width: 90%;
+			max-width: 560px;
+			min-height: 300px;
+			padding: 25px 20px 15px 20px;
+			border: 2px solid #46b1c1;
+			border-radius: 20px;
+			background: #fff;
+			/* default font family */
+			font-family: 'Roboto', sans-serif;
+			z-index: 500;
+			position: relative;
+		}
+
+		#resend-lead-popup .resend-lead-popup__body .resend-lead-popup__close {
+			position: absolute;
+			border-radius: 50%;
+			top: -15px;
+			right: -15px;
+			width: 30px;
+			height: 30px;
+			border-color: #000;
+			cursor: pointer;
+		}
+
+		#resend-lead-popup .resend-lead-popup__body .resend-lead-popup__close:hover {
+			background-color: #46b1c1;
+		}
+
+		#resend-lead-popup .resend-lead-form .resend-lead-form__title {
+			text-align: center;
+			margin-top: 0;
+			margin-bottom: 20px;
+			font-size: 30px;
+		}
+
+		#resend-lead-popup .resend-lead-form .notification {
+			display: none;
+			color: #fff;
+			text-align: center;
+			padding: 5px;
+		}
+
+		#resend-lead-popup .resend-lead-form .notification.success {
+			background: green;
+		}
+
+		#resend-lead-popup .resend-lead-form .notification.error {
+			background: red;
+            margin-bottom: 10px;
+		}
+
+		#resend-lead-popup .resend-lead-form .notification.active {
+			display: block;
+            margin-bottom: 10px;
+		}
+
+		#resend-lead-popup .resend-lead-form input {
+			display: block;
+			width: 90%;
+			max-width: 300px;
+			height: 40px;
+			margin: 0 auto 20px auto;
+			border: 2px solid #46b1c1;
+			padding: 5px 10px;
+			border-radius: 5px;
+		}
+
+		#resend-lead-popup .resend-lead-form input::-webkit-outer-spin-button,
+		#resend-lead-popup .resend-lead-form input::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+		}
+
+		#resend-lead-popup .resend-lead-form input[type=number] {
+			-moz-appearance: textfield;
+		}
+
+		#resend-lead-popup .resend-lead-form .resend-lead__submit {
+			display: block;
+			width: 200px;
+			color: #fff;
+			background: -webkit-linear-gradient(298.88deg, #4eb7c6 49.07%, #4eb7c6 130.88%);
+            background: linear-gradient(151.12deg, #4eb7c6 49.07%, #4eb7c6 130.88%);
+            border: 2px solid rgba(255, 255, 255, .3);
+            -webkit-box-shadow: 0px 0px 6px #67c7d5, 0px 0px 6px rgba(0, 0, 0, .25);
+            box-shadow: 0px 0px 6px #67c7d5, 0px 0px 6px rgba(0, 0, 0, .25);
+			height: 40px;
+			margin: 10px auto 0 auto;
+			cursor: pointer;
+		}
+	</style>
+
+	<div id="resend-lead-popup">
+		<div class="resend-lead-popup__body">
+			<button type="button" class="resend-lead-popup__close">
+				<svg width="14px" height="14px" viewBox="0 0 311 311.07733" xmlns="http://www.w3.org/2000/svg">
+					<path
+						d="m16.035156 311.078125c-4.097656 0-8.195312-1.558594-11.308594-4.695313-6.25-6.25-6.25-16.382812 0-22.632812l279.0625-279.0625c6.25-6.25 16.382813-6.25 22.632813 0s6.25 16.382812 0 22.636719l-279.058594 279.058593c-3.136719 3.117188-7.234375 4.695313-11.328125 4.695313zm0 0" />
+					<path
+						d="m295.117188 311.078125c-4.097657 0-8.191407-1.558594-11.308594-4.695313l-279.082032-279.058593c-6.25-6.253907-6.25-16.386719 0-22.636719s16.382813-6.25 22.636719 0l279.058594 279.0625c6.25 6.25 6.25 16.382812 0 22.632812-3.136719 3.117188-7.230469 4.695313-11.304687 4.695313zm0 0" />
+				</svg>
+			</button>
+			<form class="resend-lead-form">
+				<!-- Тут нужно перевести контент на язык ленда  -->
+				<h3 class="resend-lead-form__title">Исправьте вашу заявку:</h3>
+				<!-- Две ошибки, тк сервер текст ошибок не возвращает, тем более под нужный язык не переводит -->
+				<p class="notification success">Заявка успешно обновлена!</p>
+				<p class="notification error">При отправке формы произошла ошибка. Попробуйте отпрвить заявку с главной странцы
+				</p>
+				<!-- форма -->
+				<input id="resend-lead-name" placeholder="Имя" name="name" type="text">
+				<input id="resend-lead-phone" placeholder="Телефон" name="phone" type="number">
+				<button type="submit" class="resend-lead__submit">
+					Отправить
+				</button>
+			</form>
+		</div>
+	</div>
+	<!-- end of new form -->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
+        <script src="confirm/js/slick.min.js"></script>
+        <script src="confirm/js/main.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-url-parser/2.3.1/purl.min.js"></script>
+        <script src="https://click.lucky.online/js/leadprofit.js"></script>
+        <script>
+                                            $(document).ready(function () {
+                                                $(document).leadprofitConfirm();
+                                            });
+        </script>
+
+
+
+    </body>
+
+</html>

@@ -1,0 +1,77 @@
+.counter__num {
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.counter__num_text {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px
+}
+
+.counter__num_item {
+    display: inline-block;
+
+}
+
+.counter__hour,
+.counter__min,
+.counter__sec {
+    font: 700 40.8px/83px 'Open Sans', sans-serif;
+    color: #010101;
+    letter-spacing: 0.047em;
+    vertical-align: middle;
+    display: inline-block;
+    width: 87px;
+    height: 87px;
+    background:none;
+    border: 2px dotted #a96e3f;
+    border-radius: 45px;
+    margin: 0 28px 0 0;
+    position: relative;
+}
+
+.counter__sec{
+    margin: 0;
+}
+
+.counter__hour:after,
+.counter__min:after{
+    position: absolute;
+    content: ":";
+    top: 20px;
+    right: -22px;
+    font: 700 40.8px/40px 'Open Sans', sans-serif;
+    color: #010101;
+}
+
+.header__counter {
+    position: relative
+}
+
+.header__counter.text-bottom {
+    display: none
+}
+
+@media (max-width: 601px){
+    .counter__hour,
+    .counter__min,
+    .counter__sec {
+        font: 700 30.81px/61px 'Open Sans', sans-serif;
+        letter-spacing: 0.047em;
+        width: 65px;
+        height: 65px;
+        margin: 0 21px 0 0;
+        position: relative;
+    }
+
+    .counter__sec{
+        margin: 0;
+    }
+    .counter__hour:after,
+    .counter__min:after{
+        top: 0px;
+        right: -20px;
+        font: 700 30.81px/61px 'Open Sans', sans-serif;
+    }
+}
